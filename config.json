@@ -1,0 +1,61 @@
+{
+  "prefix": "!ib",
+  "owner_ids": [
+    1086680677069639770,
+    1085424944399269920
+  ],
+  
+  "review_channel_id": 1395074888527646860,
+  "role_based_discounts": [
+    { "role_id": 1393911029989380116, "discount_percent": 8 }
+  ],
+  "embed_color": "0x5865F2",
+  "success_color": "0x57F287",
+  "error_color": "0xED4245",
+  "knowledge_base_file": "knowledge_base.md",
+  "staff_role_id": [
+    1393907002274746489
+  ],
+  "ticket_panel_channel_id": 1392474114408714250,
+  "ticket_transcripts_channel_id": 1395430734381973534,
+  "renewal_alerts_channel_id": 1393898280580022302,
+  "points_log_channel_id": 1396139032299438130,
+  "ticket_panel_image_url": "https://i.postimg.cc/NMf4HQg3/logo.png",
+  "payment_methods": {
+    "upi_id": "sadiquedaniyal@fam",
+    "ltc_address": "LWJ6SiqgBRrHkTSBNQE8Lm4Rj8sKZbXxBm",
+    "usdt_trc20_address": "TPjFNfyUsLt3u7uo7WaTm1jcBpcBKQUUcK"
+  },
+  "loyalty_program": {
+    "points_per_order": 1,
+      "rewards": [
+        { "points": 5, "discount_inr": 20 },
+        { "points": 10, "discount_inr": 45 },
+        { "points": 15, "discount_inr": 65 }
+      ],
+      "role_rewards":[{ "points": 5, "role_id": 1393911029989380116 }],
+
+      "affiliate_program": {
+        "new_user_discount_inr": 25,
+        "referrer_reward_discount_inr": 30
+      }
+  },
+  "ticket_options": [
+    {
+      "label": "Buy Products/Services",
+      "description": "Open a ticket to purchase items from our store.",
+      "emoji": "<:ib_cart:1395711996221067274>",
+      "category": "BUY"
+    },
+    {
+      "label": "Product/Service Issue",
+      "description": "Get support for an item you've already purchased.",
+      "emoji": "<:ib_rstats:1393835078794088489>",
+      "category": "SUPPORT"
+    }
+  ],
+  "staff_role_ids": [
+    1392688685127958668,
+    1393907002274746489
+  ]
+}

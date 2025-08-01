@@ -1,0 +1,8 @@
+supabase
+psycopg2-binary
+python-dotenv
+discord.py
+chat-exporter
+groq
+requests
+qrcode
